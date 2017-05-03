@@ -45,7 +45,7 @@ public class test {
 								System.out.println();
 							}
 						}
-						continue;// 副菜单中若没有点选项返回主菜单，让界面停留在副菜单
+						continue;
 					case 2:
 						System.out.println("输入课序号为0时,停止保存学生数据\n");
 						while (true) {
@@ -64,7 +64,7 @@ public class test {
 								System.out.println();
 							}
 						}
-						continue;// 副菜单中若没有点选项返回主菜单，让界面停留在副菜单
+						continue;
 					case 3:
 						System.out.println("输入学号为0时,停止保存学生成绩信息\n");
 						while (true) {
